@@ -1,0 +1,161 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  .card-1{
+    height: 100%;
+    min-height: 90vh;
+    background-color: #11103D;
+    border-radius: 25px;
+    margin-block-start: 35px; 
+  }
+ 
+  .card-2{
+    height: 100%;
+    min-height: 70vh;
+    background-color: #11103D;
+    border-radius: 25px;
+    margin-block-start: 95px; 
+  }
+  
+  .logo{
+    width: 350px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+  }
+
+  label{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #E6E6E6;  
+    vertical-align: middle;  
+  }
+
+  #info{
+    background-color: #E6E6E6;
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+  }
+
+  #birthday{
+    background-color: #E6E6E6;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  #options{
+    background-color: #E6E6E6;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  #option1{
+    background-color: #E6E6E6;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .title{
+    color: white;
+    font-weight: bold;
+   }
+
+   .image-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  .image-checkbox label {
+    cursor: pointer;
+  }
+  
+  .image-checkbox label img {
+    opacity: 0.5;
+  }
+  
+  .image-checkbox input[type="checkbox"]:checked + label img {
+    opacity: 1;
+  }
+  
+  .cuadro1{
+    width: 125px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: -40px;
+  }
+
+  .cuadro2{
+    width: 125px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 90px;
+  }
+
+  .cuadro3{
+    width: 125px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 120px;
+  }
+
+  .cuadro4{
+    width: 125px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+  .cuadro5{
+    width: 125px;
+    height: auto;
+    margin-top: -25px;
+    margin-left: -40px;
+
+  }
+
+  .cuadro6{
+    width: 125px;
+    height: auto;
+    margin-top: -25px;
+    margin-left: 60px;
+  }
+
+  .cuadro7{
+    width: 125px;
+    height: auto;
+    margin-top: -25px;
+    margin-left: 120px;
+  }
+
+  .cuadro8{
+    width: 125px;
+    height: auto;
+    margin-top: -25px;
+    margin-left: 150px;
+  }
+  figure {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0px; /* Ajusta la posición vertical del texto */
+    bottom: 10px; /* Ajusta la posición vertical del texto */
+    left: -40px; /* Ajusta la posición horizontal del texto */
+    color: white; /* Ajusta el color del texto */
+    padding: 5px; /* Ajusta el espaciado interno del texto */
+    font-size: small;
+  }
